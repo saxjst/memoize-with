@@ -1,0 +1,33 @@
+{
+  "name": "memoize-with",
+  "version": "1.0.0",
+  "description": "Memoize a function using a custom cache and a key formatter",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saxjst/memoize-with.git"
+  },
+  "author": {
+    "name": "saxjst"
+  },
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/saxjst/memoize-with/issues"
+  },
+  "homepage": "https://github.com/saxjst/memoize-with#readme",
+  "engines": {
+    "node": ">=10.16.3"
+  },
+  "keywords": [
+    "memoization"
+  ],
+  "devDependencies": {
+    "coveralls": "3.0.7",
+    "jest": "24.9.0"
+  }
+}
