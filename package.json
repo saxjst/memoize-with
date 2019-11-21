@@ -27,7 +27,7 @@
     "memoization"
   ],
   "devDependencies": {
-    "coveralls": "3.0.7",
+    "coveralls": "3.0.8",
     "jest": "24.9.0"
   }
 }
