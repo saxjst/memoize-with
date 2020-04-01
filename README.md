@@ -12,13 +12,13 @@
 ## Install
 
 ```
-$ npm install s-memoize-with
+$ npm install memoize-with
 ```
 
 ## Usage
 
 ```js
-const memoizeWith = require("s-memoize-with");
+const memoizeWith = require("memoize-with");
 
 let customCache = {
 obj: {},
@@ -63,4 +63,4 @@ Memoize a function using a custom cache and a key formatter
 
 ## License
 
-Apache 2.0 © [saxjst]()
+MIT © [saxjst](https://saxjst.com)
